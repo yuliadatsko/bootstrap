@@ -1,0 +1,89 @@
+p {
+  text-align: center;
+}
+.container {
+  background-color: #9fc5f8;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.brand {
+  background-color: #cfe2fb;
+  height: 50px;
+  text-align: center;
+}
+.global {
+  background-color: #cfe2fb;
+  height: 50px;
+  text-align: center;
+}
+
+.tools {
+  background-color: #cfe2fb;
+  height: 50px; 
+  text-align: center;
+}
+
+.feature {
+  background-color: #cfe2fb;
+  height: 150px;
+  text-align: center;
+}
+.call {
+  background-color: #cfe2fb;
+  height: 150px;
+  text-align: center;
+}
+
+.ad {
+  background-color: #6fa8dc;
+  height: 150px;  
+  text-align: center;
+  margin-top: 45px;
+  
+}
+
+.body-feature {
+  background-color: #cfe2fb;
+  height: 250px;
+  text-align: center;
+}
+.listing {
+  background-color: #cfe2fb;
+  height: 250px;
+  text-align: center;
+}
+
+
+.sidebar {
+  background-color: #9fc5f8;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+.sidebar-feature {
+  background-color: #cfe2fb;
+  height: 250px;
+  text-align: center;
+}
+
+.footer {
+  height: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .feature {
+    display: none;
+  }  
+  
+}
+
+
+
+@media screen and (max-width: 768px){
+  .call {
+    display: none;
+  }
+  .sidebar {
+    display: none;
+  }
+  
+}
